@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    box-sizing: border-box;
+    background-color: black;
+}
+
+header {
+    display: flex;
+    padding: 30px;
+    font-size: 30px;
+    padding-left: 100px;
+    background-image: url(https://img.freepik.com/premium-vector/background-matrix-style-falling-random-numbers-green-is-dominant-color_257312-87.jpg?w=900);
+    color: white;
+
+}
+
+main {
+    margin: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.interacao {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.container-caixas {
+    display: flex;
+    flex-direction: row;
+}
+
+.textos {
+    display: flex;
+    color: green;
+    padding: 10px;
+    padding-bottom: 35px;
+    font-size: 18px;
+    gap: 8px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+}
+
+.container-caixa-de-texto {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.caixa-de-texto {
+    margin: 25px;
+    padding: 5px;
+    background-color: gray;
+    box-sizing: border-box;
+    justify-content: center;
+    width: 500px;
+    height: 350px;
+    line-height: 1.5;
+    resize: none;
+    border-radius: 10px;
+    border-color: green;
+    cursor: url(imgs/neo-matrix-removebg-preview.png), auto;
+    
+}
+
+::-webkit-input-placeholder {
+    color: black;
+    font-style: italic;
+
+ }
+
+.container-btn {
+    justify-content: center;
+    display: flex;
+    padding: 10px;
+    gap: 20px;
+    border-radius: 10px;
+
+}
+
+.btn-crip {
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 18px;
+    background-color: black;
+    color: green;
+    transition: background-color 0.5s, color 0.5s;
+    cursor: url(imgs/neo-matrix-removebg-preview.png), auto;
+
+}
+
+.btn-descrip {
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 18px;
+    background-color: black;
+    color: green;
+    transition: background-color 0.5s, color 0.5s;
+    cursor: url(imgs/neo-matrix-removebg-preview.png), auto;
+
+}
+
+.container-caixa-resposta {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.caixa-resposta {
+    margin: 25px;
+    padding: 5px;
+    background-color: gray;
+    box-sizing: border-box;
+    justify-content: center;
+    width: 500px;
+    height: 350px;
+    line-height: 1.5;
+    resize: none;
+    border-radius: 10px;
+    border-color: green;
+    cursor: url(imgs/neo-matrix-removebg-preview.png), auto;
+
+}
+
+.btn-copiar {
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 18px;
+    background-color: black;
+    color: green;
+    transition: background-color 0.5s, color 0.5s;
+    cursor: url(imgs/neo-matrix-removebg-preview.png), auto;
+
+}
+
+.btn-crip:hover {
+    background-color: rgb(96, 95, 95);
+    color: red;
+}
+
+.btn-descrip:hover {
+    background-color: rgb(96, 95, 95);
+    color: blue;
+}
+
+.btn-copiar:hover {
+    background-color: rgb(96, 95, 95);
+    color: yellow;
+}
+
+footer {
+    display: flex;
+    padding: 25px;
+    justify-content: center;
+    font-size: 18px;
+    background-image: url(https://img.freepik.com/premium-vector/background-matrix-style-falling-random-numbers-green-is-dominant-color_257312-87.jpg?w=900);
+    color: white;
+
+}
+
+.p-header, .p-footer {
+    background-color: rgba(0, 0, 0, 0.871);
+    border-radius: 20px;
+    box-shadow: black 10px 10px 10px;
+    font-weight: 600;
+
+}
