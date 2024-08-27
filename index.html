@@ -12,19 +12,21 @@
 
     <header> 
 
-        <p class="p-header"> Challenge Encriptador </p> 
+        <!-- <img class="logo" src="imgs/Design sem nome.png"  alt=""> -->
+
+        <!-- <p class="p-header"> Challenge Encriptador </p>  -->
 
     </header>
 
     <main> 
 
-        <div class="interacao">
+        <div class="interacao1">
 
             <div class="textos">
 
                 <h1> Esse é um Encriptador. </h1>
     
-                <p> Ele criptografa e descriptografa qualquer coisa que for escrita dentro da caixa de texto abaixo. Tente você. </p>
+                <p> Ele criptografa e descriptografa qualquer coisa que for escrita dentro da caixa de texto abaixo a esquerda. Tente você. </p>
     
             </div>
 
@@ -32,13 +34,13 @@
 
                 <div class="container-caixa-de-texto">
 
-                    <textarea class="caixa-de-texto" type="text" placeholder="Num ninho de mafagafos há sete mafagafinhos. Quando a mafagafa gafa, gafam os sete mafagafinhos. Quem desmafagafar o ninho de mafagafos, bom desmafagafador será."></textarea>
+                    <textarea id="caixatexto" class="caixa-de-texto" type="text" placeholder="Insira aqui a mensagem que você deseja criptografar ou descriptografar."></textarea>
 
                     <div class="container-btn">
 
-                        <button class="btn-crip" onclick=""> Criptografar </button>
+                        <button id="botaocrip" class="btn-crip" onclick="criptografar()"> Criptografar </button>
 
-                        <button class="btn-descrip" onclick=""> Descriptografar </button>
+                        <button id="botaodescrip" class="btn-descrip" onclick="descriptografar()"> Descriptografar </button>
 
                     </div>
 
@@ -46,10 +48,11 @@
 
                 <div class="container-caixa-resposta">
 
-                    <textarea class="caixa-resposta" disabled placeholder="Seu texto aparecerá aqui."></textarea>
+                    <textarea id="caixaresposta" class="caixa-resposta" disabled placeholder="Seu texto aparecerá aqui."></textarea>
 
                     <div class="container-btn">
-                        <button class="btn-copiar" onclick=""> Copiar </button>
+
+                        <button id="botaocop" class="btn-copiar" onclick=""> Copiar </button>
 
                     </div>
 
@@ -64,5 +67,7 @@
     <footer> <p class="p-footer"> © 2024 DavhiHfs. Todos os direitos reservados. </p> </footer>
     
 </body>
+
+<script src="script.js"></script>
 
 </html>

@@ -14,20 +14,24 @@ header {
     padding: 30px;
     font-size: 30px;
     padding-left: 100px;
-    background-image: url(https://img.freepik.com/premium-vector/background-matrix-style-falling-random-numbers-green-is-dominant-color_257312-87.jpg?w=900);
+    /* background-image: url(https://img.freepik.com/premium-vector/background-matrix-style-falling-random-numbers-green-is-dominant-color_257312-87.jpg?w=900); */
     color: white;
 
 }
 
+.logo {
+    width: 100px;
+}
+
 main {
-    margin: 150px;
+    margin: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
 
 }
 
-.interacao {
+.interacao1 {
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -41,7 +45,7 @@ main {
 
 .textos {
     display: flex;
-    color: green;
+    color: #00FE60;
     padding: 10px;
     padding-bottom: 35px;
     font-size: 18px;
@@ -69,7 +73,7 @@ main {
     line-height: 1.5;
     resize: none;
     border-radius: 10px;
-    border-color: green;
+    border-color: #00FE60;
     cursor: url(imgs/neo-matrix-removebg-preview.png), auto;
     
 }
@@ -96,8 +100,8 @@ main {
     font-weight: 600;
     font-size: 18px;
     background-color: black;
-    color: green;
-    transition: background-color 0.5s, color 0.5s;
+    color: #00FE60;
+    transition: background-color 0.5s, border-color 0.3s, color 0.5s;
     cursor: url(imgs/neo-matrix-removebg-preview.png), auto;
 
 }
@@ -109,9 +113,16 @@ main {
     font-weight: 600;
     font-size: 18px;
     background-color: black;
-    color: green;
-    transition: background-color 0.5s, color 0.5s;
+    color: #00FE60;
+    transition: background-color 0.5s, border-color 0.3s, color 0.5s;
     cursor: url(imgs/neo-matrix-removebg-preview.png), auto;
+
+}
+
+.interacao2 {
+    display: flex;
+    width: 100%;
+    height: 100%;
 
 }
 
@@ -132,7 +143,7 @@ main {
     line-height: 1.5;
     resize: none;
     border-radius: 10px;
-    border-color: green;
+    border-color: #00FE60;
     cursor: url(imgs/neo-matrix-removebg-preview.png), auto;
 
 }
@@ -144,25 +155,28 @@ main {
     font-weight: 600;
     font-size: 18px;
     background-color: black;
-    color: green;
-    transition: background-color 0.5s, color 0.5s;
+    color: #00FE60;
+    transition: background-color 0.5s, border-color 0.3s, color 0.5s;
     cursor: url(imgs/neo-matrix-removebg-preview.png), auto;
 
 }
 
 .btn-crip:hover {
     background-color: rgb(96, 95, 95);
-    color: red;
+    border-color: #65008F;
+    color: #65008F;
 }
 
 .btn-descrip:hover {
     background-color: rgb(96, 95, 95);
-    color: blue;
+    border-color: #65008F;
+    color: #65008F;
 }
 
 .btn-copiar:hover {
     background-color: rgb(96, 95, 95);
-    color: yellow;
+    border-color: #65008F;
+    color: #65008F;
 }
 
 footer {
@@ -170,7 +184,7 @@ footer {
     padding: 25px;
     justify-content: center;
     font-size: 18px;
-    background-image: url(https://img.freepik.com/premium-vector/background-matrix-style-falling-random-numbers-green-is-dominant-color_257312-87.jpg?w=900);
+    /* background-image: url(https://img.freepik.com/premium-vector/background-matrix-style-falling-random-numbers-green-is-dominant-color_257312-87.jpg?w=900); */
     color: white;
 
 }
